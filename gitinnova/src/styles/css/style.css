@@ -90,6 +90,70 @@
   color: white;
 }
 
+.perfiles {
+  width: 100%;
+  max-height: 100%;
+}
+
+.perfilesCrud {
+  width: 100%;
+  height: 100%;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.btn-agregar {
+  height: 100%;
+  width: 100%;
+  font-size: 9px;
+}
+
+.crud {
+  width: 50%;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.contenedorCrud {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.git-profile {
+  position: fixed;
+  height: 200vh;
+  width: 100%;
+  background-color: #080808f8;
+  display: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 5;
+  top: 0%;
+  color: aliceblue;
+  overflow: scroll;
+}
+
+.displayyes {
+  display: inline;
+}
+
+.displaynone {
+  display: none;
+}
+
 .movies-container {
   display: -webkit-box;
   display: -ms-flexbox;

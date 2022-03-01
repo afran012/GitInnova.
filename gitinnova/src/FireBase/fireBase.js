@@ -7,16 +7,16 @@ import {getFirestore} from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 
-/*const firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyAukTxWN5xIM5a3-d6XTzsOZvLU2CB4o6M",
   authDomain: "gitinnova.firebaseapp.com",
   projectId: "gitinnova",
   storageBucket: "gitinnova.appspot.com",
   messagingSenderId: "297232287331",
   appId: "1:297232287331:web:8ea0c14a4763f5581ada56"
-};*/
+};
 
-
+/*
 const firebaseConfig = {
   apiKey: "AIzaSyDU283NHWxKW4QUmiS3J7AasiFaJXnUFjo",
   authDomain: "sprint3movies.firebaseapp.com",
@@ -24,7 +24,7 @@ const firebaseConfig = {
   storageBucket: "sprint3movies.appspot.com",
   messagingSenderId: "504174554509",
   appId: "1:504174554509:web:9432414f018ef250f221c4"
-};
+};*/
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

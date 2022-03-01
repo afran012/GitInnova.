@@ -1,33 +1,26 @@
 import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { /*Link,*/ useLocation, useNavigate } from "react-router-dom";
-import styled from "styled-components";
+import { useDispatch } from "react-redux";
+
+
 import { logout } from "../../action/actionLogin";
-import { Button, Container, Form, FormControl, Nav, Navbar, /*NavbarBrand, */NavDropdown } from "react-bootstrap"
-import querystring from 'query-string';
-import { userFormHook } from "../../hooks/userFormHook";
-import { getAuth } from "firebase/auth";
+
 import Cookies from 'universal-cookie'
 
-const style1 = {
-    color: "white",
-    //backgroundColor: "#db7093"
 
-}
 
 
 
 export const NavbarMain = () => {
 
     const dispatch = useDispatch()
-    const navigate = useNavigate()
+
 
     const handleLogout = () => {
         dispatch(logout())
-        //navigate("/login")
+
     }
 
-    const { id , name } = useSelector((store) => store.login);
+
 
     const cookies = new Cookies();
     console.log('====================================');
